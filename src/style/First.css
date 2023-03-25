@@ -20,6 +20,7 @@
 .container-images img {
   width: 40%;
   height: 90%;
+  border-radius: 5px;
 }
 
 .container-images p {
