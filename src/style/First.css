@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 * {
   margin: 10px;
   background-color: rgb(54, 54, 54);
@@ -5,15 +8,37 @@
 
 .main-cards {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .container-images {
+  display: flex;
   box-shadow: 1px 1px 4px white;
   height: 400px;
 }
 
 .container-images img {
-  width: 300px;
-  height: 280px;
+  width: 40%;
+  height: 90%;
+}
+
+.container-images p {
+  line-height: 1.5;
+  font-size: 15pt;
+  font-family: 'Metal Mania', cursive;
+}
+
+.container-images h3 {
+  font-size: 25pt;
+  font-family: 'Caesar Dressing', cursive;
+}
+
+.container-images button {
+  width: 70%;
+  height: 10%;
+  margin-top: 5%;
+  cursor: pointer;
+  background-color: lightgreen;
+  font-size: 15pt;
+  border-radius: 5px;
 }

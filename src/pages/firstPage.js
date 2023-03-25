@@ -10,8 +10,12 @@ function FirstPage() {
         {arrImages.map((iten, index) => (
           <div className="container-images">
             <img src={ iten.image } alt={`bolsa ${ index }`} />
-            <h3>{iten.name}</h3>
-            <h1>{`R$${iten.price}`}</h1>
+            <div>
+              <h3>{iten.name}</h3>
+              <h1>{`R$${iten.price}`}</h1>
+              <p>{iten.description}</p>
+              <button type="button">Comprar</button>
+            </div>
           </div>
         ))}
       </div>
