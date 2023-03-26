@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
-* {
-  margin: 10px;
-  background-color: rgb(54, 54, 54);
+.main-firstpage {
+  background-image: url('../images/pexels-andrei-tanase-1271620.jpg');
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-cards {
@@ -15,31 +17,53 @@
   display: flex;
   box-shadow: 1px 1px 4px white;
   height: 400px;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: rgb(54, 54, 54, 0.7);
+}
+
+.container-images div {
+  text-align: center;
 }
 
 .container-images img {
   width: 40%;
-  height: 90%;
+  height: 95%;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .container-images p {
   line-height: 1.5;
   font-size: 15pt;
   font-family: 'Metal Mania', cursive;
+  color: white;
 }
 
 .container-images h3 {
   font-size: 25pt;
   font-family: 'Caesar Dressing', cursive;
+  background-image: linear-gradient(rgb(15, 136, 218), rgb(122, 177, 214));
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.container-images h1 {
+  color: rgb(7, 194, 122);
+  font-size: 30pt;
 }
 
 .container-images button {
   width: 70%;
   height: 10%;
-  margin-top: 5%;
   cursor: pointer;
   background-color: lightgreen;
   font-size: 15pt;
   border-radius: 5px;
+}
+
+.order-first {
+  order: 1;
 }
